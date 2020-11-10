@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :users
   get 'api/admin'
   get 'api/login'
   get 'api/register'
