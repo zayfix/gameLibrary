@@ -1,24 +1,28 @@
-# README
+# gameLibrary
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Installation
 
-Things you may want to cover:
+```
+apt-get install ruby ruby-dev ruby-bundler sqlite3 libsqlite3-dev nodejs yarn 
+bundle install
+npm i
+yarn install
+```
 
-* Ruby version
+## Usage
 
-* System dependencies
+```
+rails s
+```
 
-* Configuration
+## Errors
 
-* Database creation
+### yarn replaced by cmdtest ?
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+apt remove cmdtest
+apt remove yarn
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+apt-get update && sudo apt-get install yarn
+```
