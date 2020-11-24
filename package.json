@@ -4,7 +4,7 @@
   "scripts": {
     "postinstall": "husky install",
     "lint": "prettier --check .",
-    "format": "prettier --write"
+    "format": "prettier --write ."
   },
   "husky": {
     "hooks": {
@@ -22,7 +22,7 @@
   "devDependencies": {
     "husky": "^5.0.4",
     "pinst": "^2.1.1",
-    "prettier": "1.12.1",
+    "prettier": "2.2.0",
     "webpack-dev-server": "^3.11.0"
   }
 }

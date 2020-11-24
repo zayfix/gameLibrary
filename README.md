@@ -3,7 +3,7 @@
 ## Installation
 
 ```
-apt-get install ruby ruby-dev ruby-bundler sqlite3 libsqlite3-dev nodejs yarn 
+apt-get install ruby ruby-dev ruby-bundler sqlite3 libsqlite3-dev nodejs yarn
 bundle install
 npm i
 yarn install
